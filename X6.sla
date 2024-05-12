@@ -1,0 +1,18 @@
+put 0,r2
+put 0,r4
+put 0,r7
+put 1,r6
+put 1,r5
+put 6,r3
+jmpe r2,r3,17
+add r5,r2
+jmpe r4,r2,13
+add r6,r7
+add r5,r4
+jmpu 9
+put 1,r4
+put 0,r6
+add r7,r6
+jmpu 7
+prn r7
+halt
