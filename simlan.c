@@ -16,7 +16,7 @@ int i=0,j=0;
 int registers[32];
 FILE* file;
 
-file= fopen("Simlan.sla","r");
+file= fopen("from1to10.sla","r");
 printf("______________THE INPUT______________\n");
 while(fgets(THE_LINES,32,file)!= NULL){
 	
